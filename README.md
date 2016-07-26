@@ -40,7 +40,7 @@ unstable: this alias points to node v0.11 - the last "unstable" node release, si
 1. Clone the repo 
 
 ~~~
-git clone https://github.com/bradallenfisher/gulp-susy-breakpoint-globbing.git
+git clone https://github.com/bradallenfisher/gulp-libsass-materialcss.git
 ~~~
 
 2. Install Node dependencies 
