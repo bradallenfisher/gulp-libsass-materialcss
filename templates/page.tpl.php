@@ -1,17 +1,13 @@
 
   <nav>
     <div class="nav-wrapper light-blue darken-1">
-      <a href="/" class="brand-logo"><i class="material-icons left valign">cloud</i>Brad Allen Fisher</a>
+      <a href="/" class="brand-logo"><i class="material-icons left valign">cloud</i>Your Cool Logo</a>
     </div>
   </nav>
 
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <h1 class="header center valign orange-text">
-        <?php if($is_front):?>
-        SAMPLE WORK PRESENTATION
-        <?php endif;?>
-
         <?php print $title;?>
       </h1>
     </div>
