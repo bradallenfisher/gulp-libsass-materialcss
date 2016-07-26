@@ -1,0 +1,26 @@
+name = Material
+description = Based on CSS from Material.
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/materialize.min.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/init.js
+scripts[] = js/materialize.min.js
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[card_blocks] = Card Blocks
+regions[content] = Content
+regions[sidebar_first] = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer] = Footer
