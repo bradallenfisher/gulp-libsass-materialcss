@@ -1,4 +1,4 @@
-## Gulp Susy Breakpoint Globbing Starter 
+## gulp-libsass-materialcss
 
   
 ### First you need to setup node on your "server"
