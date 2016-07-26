@@ -8,13 +8,13 @@ core = 7.x
 ; Stylesheets
 ; ========================================
 stylesheets[all][] = css/styles.css
-stylesheets[all][] = css/materialize.min.css
+stylesheets[all][] = css/materialize.css
 
 ; ========================================
 ; Scripts
 ; ========================================
 scripts[] = js/init.js
-scripts[] = js/materialize.min.js
+scripts[] = js/materialize.js
 
 regions[header] = Header
 regions[highlighted] = Highlighted
