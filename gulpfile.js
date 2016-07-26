@@ -7,8 +7,6 @@ var gulp          = require('gulp'),
     sass          = require('gulp-sass'),
     concat        = require('gulp-concat'),
     sassGlob      = require('gulp-sass-glob'),
-    cssmin        = require('gulp-cssmin'),
-    rename        = require('gulp-rename'),
 
     input  = {
       'scss': 'src/scss/**/*.scss',
@@ -42,12 +40,6 @@ gulp.task('build-css', function() {
     .pipe(gulp.dest(output.css));
 });
 
-gulp.task('minify-css', function () {
-  return gulp.src('css/*.css')
-    .pipe(cssmin())
-    .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest(output.css));
-});
 
 /* concat javascript files, minify if --type production */
 gulp.task('build-js', function() {
@@ -59,5 +51,5 @@ gulp.task('build-js', function() {
 /* Watch these files for changes and run the task on update */
 gulp.task('watch', function() {
   gulp.watch(input.js, ['jshint', 'build-js']);
-  gulp.watch(input.scss, ['build-css', 'minify-css']);
+  gulp.watch(input.scss, ['build-css']);
 });
