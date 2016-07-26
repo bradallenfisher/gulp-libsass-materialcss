@@ -1,4 +1,6 @@
-
+<?php //really bare bones playing around with materialcss
+      //Mainly just trying to get libsass working with it
+?>
   <nav>
     <div class="nav-wrapper light-blue darken-1">
       <a href="/" class="brand-logo"><i class="material-icons left valign">cloud</i>Your Cool Logo</a>
@@ -12,12 +14,6 @@
       </h1>
     </div>
   </div>
-
-<div class="container">
-  <div class="row card-blocks">
-   <?php print render($page['card_blocks']);?>
-  </div>
-</div>
 
 <div class="container">
    <?php print render($page['content']);?>
